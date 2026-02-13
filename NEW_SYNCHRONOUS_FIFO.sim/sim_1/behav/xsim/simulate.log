@@ -1,0 +1,30 @@
+Time resolution is 1 ps
+write: 24
+em ra O
+write: 81
+em ra O
+write: 09
+em ra O
+write: 63
+em ra O
+write: 0d
+em ra O
+write: 8d
+em ra O
+write: 65
+em ra O
+write: 12
+em ra O
+write: 01
+em ra O
+READ: 00
+READ: 24
+READ: 81
+READ: 09
+READ: 63
+READ: 0d
+READ: 8d
+READ: 65
+READ: 12
+READ: 00
+READ: 00

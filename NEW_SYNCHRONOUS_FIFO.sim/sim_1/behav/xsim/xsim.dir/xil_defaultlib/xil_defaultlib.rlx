@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sim_1/new/fif0_tb.v,1770993316,verilog,,,,fif0_tb,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/fifo_mem.v,1770993435,verilog,,C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/fifo_top.v,,fifo_mem,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/fifo_top.v,1770990987,verilog,,C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/rptr_handler.v,,fifo_top,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/rptr_handler.v,1770985704,verilog,,C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/synchronizer.v,,rptr_handler,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/synchronizer.v,1770985887,verilog,,C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/wptr_handler.v,,synchronizer,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sources_1/new/wptr_handler.v,1770985644,verilog,,C:/Users/Admin/Desktop/New folder/NEW_SYNCHRONOUS_FIFO/NEW_SYNCHRONOUS_FIFO.srcs/sim_1/new/fif0_tb.v,,wptr_handler,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
