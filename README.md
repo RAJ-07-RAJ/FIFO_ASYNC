@@ -1,8 +1,17 @@
-# Asynchronous FIFO (Dual Clock FIFO - Verilog)
+# Asynchronous FIFO (Dual-Clock · Gray-Code Pointers)
+
+| | |
+|---|---|
+| **Type** | RTL IP block · Clock Domain Crossing |
+| **Language** | Verilog |
+| **Tools** | Vivado · ModelSim/XSim · GTKWave |
+| **Related** | [CDC_TECHNIQUES](https://github.com/RAJ-07-RAJ/CDC_TECHNIQUES) · [FIFO_S](https://github.com/RAJ-07-RAJ/FIFO_S) |
+
+---
 
 ## Overview
 
-This project implements a parameterized Asynchronous FIFO in Verilog, designed to safely transfer data between two independent clock domains.
+Parameterized **asynchronous FIFO** for safe data transfer between independent write and read clock domains.
 
 The design uses Gray code pointer synchronization to avoid metastability and ensure reliable full/empty detection.
 
@@ -63,24 +72,36 @@ When synchronized write pointer equals read pointer.
 
 ---
 
-## Directory Structure
-
+## Directory structure
 
 ```
-NEW_SYNCHRONOUS_FIFO.srcs/
-│
-├── sources_1(rtl)/
-│   ├── fifo_top.v         // Top-level FIFO module
-│   ├── fifo_mem.v         // Dual-port memory
-│   ├── wptr_handler.v     // Write pointer + full logic
-│   ├── rptr_handler.v     // Read pointer + empty logic
-│   ├── synchronizer.v     // 2-flop CDC synchronizer
-│
-├── sim_1(tb)/
-│   └── fifo_tb.v          // Behavioral testbench
-│
+FIFO_ASYNC/
+├── NEW_SYNCHRONOUS_FIFO.srcs/
+│   ├── sources_1/new/          # RTL
+│   │   ├── fifo_top.v          # Top-level async FIFO
+│   │   ├── fifo_mem.v          # Dual-port memory
+│   │   ├── wptr_handler.v      # Write pointer + Gray + full
+│   │   ├── rptr_handler.v      # Read pointer + Gray + empty
+│   │   └── synchronizer.v      # 2-FF CDC synchronizer
+│   └── sim_1/new/
+│       └── fif0_tb.v           # Dual-clock testbench
 └── README.md
 ```
+
+## Simulation (Vivado / XSim)
+
+1. Open `NEW_SYNCHRONOUS_FIFO.xpr` in Vivado, or
+2. Add all `sources_1/new/*.v` + `sim_1/new/fif0_tb.v` to your simulator file list
+3. Run behavioral simulation and probe `wclk` / `rclk` pointer sync and full/empty flags
+
+## Recruiter checklist
+
+| Item | Covered |
+|------|---------|
+| Gray-code pointer CDC | Yes |
+| Dual-clock TB | Yes |
+| Full / empty boundary tests | Yes |
+| Modular RTL decomposition | Yes |
 
 ---
 

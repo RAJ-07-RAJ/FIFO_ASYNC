@@ -1,0 +1,13 @@
+# Vivado / XSim generated artifacts (RTL source is under NEW_SYNCHRONOUS_FIFO.srcs/)
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.xpr.user
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
